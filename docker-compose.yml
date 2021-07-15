@@ -3,18 +3,17 @@ services:
   gitexplorer:
     restart: always
     build:
-      context: ./
+      context: .
       cache_from:
-        - node:alpine
+        - node:14-alpine
     container_name: gitexplorer 
     hostname: gitexplorer 
     network_mode: bridge
     volumes:
-      - ./:/usr/app
+      - .:/app
     ports:
       - 3000:3000
     environment:
-      - SHELL=/bin/bash
       - NODE_ENV=development
       - PORT=3000
     command:

@@ -1,15 +1,14 @@
-FROM node:alpine as builder
+FROM node:14-alpine as builder
 ENV NODE_ENV=development \
-    PORT=3000 \
-    SHELL=/bin/bash
-RUN apk update && apk add --no-cache make git gnupg bash
+    PORT=3000 
 
 # Create app directory
-WORKDIR /usr/app
+WORKDIR /app
 
 # Install app dependencies
-COPY . ./
+COPY package*.json ./
 RUN npm set progress=false && npm install
-VOLUME /usr/app
+# Copy all files 
+COPY . ./
 EXPOSE $PORT
-CMD ["npm", "run", "start"]
+CMD ["yarn", "start"]
