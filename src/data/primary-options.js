@@ -21,7 +21,30 @@ const options = [
   { value: 'cherrypick', label: 'cherry-pick' },
 ];
 
-export const primaryOptions = options.sort((x, y) => {
+const options_fa = [
+  { value: 'add', label: 'اضافه کردن' },
+  { value: 'commit', label: 'کامیت' },
+  { value: 'revert', label: 'برگرداندن' },
+  { value: 'initialize', label: 'مقداردهی اولیه' },
+  { value: 'modify', label: 'اصلاح کردن' },
+  { value: 'show', label: 'نشان دادن' },
+  { value: 'delete', label: 'حذف کردن' },
+  { value: 'compareCommits', label: 'مقایسه دو کامیت' },
+  { value: 'configure', label: 'پیکربندی' },
+  { value: 'clone', label: 'کلون' },
+  { value: 'ignore', label: 'نادیده گرفتن' },
+  { value: 'rename', label: 'تغییر نام' },
+  { value: 'merge', label: 'ادغام' },
+  { value: 'squash', label: 'اسکواش' },
+  { value: 'stash', label: 'ذخیره کردن' },
+  { value: 'debug', label: 'اشکال زدایی' },
+  { value: 'recover', label: 'بازیافتن' },
+  { value: 'synchronize', label: 'همگام سازی' },
+  { value: 'rebase', label: 'پایه گذاری مجدد' },
+  { value: 'cherrypick', label: 'انتخاب بهترین ' },
+];
+
+export const primaryOptions = options_fa.sort((x, y) => {
   if (x.value < y.value) {
     return -1;
   }
