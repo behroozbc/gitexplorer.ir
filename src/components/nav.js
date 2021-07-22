@@ -6,10 +6,10 @@ const Nav = ({ fastType, mode, onToggle }) => (
   <nav className="nav">
     <Toggle
       checked={fastType}
-      leftLabel="سرعت تایپ سریع"
+      leftLabel="سرعت تایپ خرگوشی"
       name="fastType"
       onChange={onToggle}
-      rightLabel="سرعت تایپ معمول"
+      rightLabel="سرعت تایپ لاکپشتی"
     />
     <Toggle
       checked={mode}
