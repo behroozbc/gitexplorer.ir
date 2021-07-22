@@ -82,6 +82,7 @@
   .content {
     flex: 1;
     padding-top: 10rem;
+    text-align: start;
 
     &__title {
       color: $color-dark;
@@ -185,6 +186,12 @@
         color: $color-dark;
         letter-spacing: 1px;
         margin-bottom: 1rem;
+      }
+
+      &--1 {
+        .Typist {
+          direction: ltr;
+        }
       }
 
       &--2 {
