@@ -6,7 +6,7 @@ import githubGreen from 'assets/images/github-green.svg';
 const Footer = props => (
   <footer className="footer">
     <div className="logo">
-      <a href="https://github.com/summitech/gitexplorer" rel="noopener noreferrer" target="_blank">
+      <a href="https://github.com/behroozbc/gitexplorer.ir" rel="noopener noreferrer" target="_blank">
         {props.dark ? (
           <img src={githubGreen} alt="Github Logo" className="logo--github" />
         ) : (
@@ -14,7 +14,7 @@ const Footer = props => (
         )}
       </a>
     </div>
-    <p className="footer__copyright dark-white">
+    {/* <p className="footer__copyright dark-white">
       Made with <span>❤</span> by{' '}
       <a href="https://www.summitech.ng" target="_blank" rel="noopener noreferrer">
         Summitech
@@ -35,7 +35,7 @@ const Footer = props => (
       >
         Donate
       </a>
-    </p>
+    </p> */}
   </footer>
 );
 

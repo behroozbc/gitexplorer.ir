@@ -149,14 +149,14 @@ class App extends Component {
             <div className="row">
               <div className="col-5">
                 <h2 className="content__title  dark-white">
-                  Git <span>Command</span> Explorer
+                  کاوشگر <span>دستورات</span> گیت
                 </h2>
                 <p className="content__subtitle dark-grey">
-                  Find the right commands you need without digging through the web.
+                  یافتن دستورات گیت مورد نیاز شما بدون نیاز به جست و جو در وب سایت ها.
                 </p>
 
                 <div className="options">
-                  <h4 className="options__title">I want to:</h4>
+                  <h4 className="options__title">من می خواهم:</h4>
 
                   <Select
                     placeholder="..."
@@ -197,7 +197,7 @@ class App extends Component {
                 <div
                   className={`board__group board__group--1 ${isMobile && !usage ? ' d-none' : ''}`}
                 >
-                  <h2 className="board__title  dark-white">Usage</h2>
+                  <h2 className="board__title  dark-white">نحوه استفاده</h2>
                   <div className="board board--1">
                     <pre>
                       {usage.length ? (
@@ -225,7 +225,7 @@ class App extends Component {
 
                   {nb ? (
                     <div className="board__group board__group--2">
-                      <h2 className="board__title  dark-white">Note</h2>
+                      <h2 className="board__title  dark-white">توجه</h2>
                       <div className="board board--2">
                         <pre>
                           <Typist avgTypingDelay={avgTypingDelay} cursor={{ show: false }}>
