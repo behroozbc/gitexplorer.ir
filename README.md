@@ -119,6 +119,56 @@ show: [
   ```
 4. Once you are done, add, commit, push and create a PR to Master.
 
+
+For change website language you need to translate all label in  `primary-options.js`, `secondary-options.js` and `tertiary-options.js` files to your language.
+for example for translate website to persian you can create a new object in `primary-options.js` named options_fa and translate all labels to persian then in `index.js` file at data folder refrence to new object.
+
+`primary-options.js`
+```
+const options_fa = [
+  { value: 'add', label: 'اضافه کردن' },
+  { value: 'commit', label: 'کامیت' },
+  { value: 'revert', label: 'برگرداندن' },
+  { value: 'initialize', label: 'مقداردهی اولیه' },
+  { value: 'modify', label: 'اصلاح کردن' },
+  { value: 'show', label: 'نشان دادن' },
+  { value: 'delete', label: 'حذف کردن' },
+  { value: 'compareCommits', label: 'مقایسه دو کامیت' },
+  { value: 'configure', label: 'پیکربندی' },
+  { value: 'clone', label: 'کلون' },
+  { value: 'ignore', label: 'نادیده گرفتن' },
+  { value: 'rename', label: 'تغییر نام' },
+  { value: 'merge', label: 'ادغام' },
+  { value: 'squash', label: 'اسکواش' },
+  { value: 'stash', label: 'ذخیره کردن' },
+  { value: 'debug', label: 'اشکال زدایی' },
+  { value: 'recover', label: 'بازیافتن' },
+  { value: 'synchronize', label: 'همگام سازی' },
+  { value: 'rebase', label: 'پایه گذاری مجدد' },
+  { value: 'cherrypick', label: 'انتخاب بهترین ' },
+];
+
+export const primaryOptions = options_fa.sort((x, y) => {
+  if (x.value < y.value) {
+    return -1;
+  }
+  if (x.value > y.value) {
+    return 1;
+  }
+  return 0;
+});
+
+```
+
+
+`index.js`
+```
+export { primaryOptions as optionsFirst } from './primary-options';
+export { secondaryOptions_fa as optionsSecond } from './secondary-options';
+export { tertiaryOptions as optionsThird } from './tertiary-options';
+
+``` 
+
 ### Donate
 
  You can also contribute to the continued success of the project via donation. Please click this [link](https://rave.flutterwave.com/donate/bavfmdlomzs2).
