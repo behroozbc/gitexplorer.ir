@@ -6,7 +6,7 @@ ENV NODE_ENV=development \
 WORKDIR /app
 
 # Install app dependencies
-COPY package*.json ./
+COPY package.json ./
 RUN npm set progress=false && npm install
 # Copy all files 
 COPY . ./
