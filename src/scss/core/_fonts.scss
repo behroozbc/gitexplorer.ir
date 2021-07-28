@@ -37,3 +37,10 @@
   src: url("../assets/fonts/OpenSans/OpenSans-ExtraBold.ttf") format("truetype");
   text-rendering: optimizeLegibility;
 }
+
+@font-face {
+  font-family: "Vazir";
+  src: url('../assets/fonts/Vazir/Vazir-Regular.woff2') format('woff2'),;
+  font-weight: normal;
+  font-style: normal;
+}
