@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f670d8bcfb753704a8ee69ea6f6b2423",
+    "revision": "177287c3ff3e98648ef662aa48ae843e",
     "url": "/index.html"
   },
   {
-    "revision": "f3fe6022d69205280a27",
-    "url": "/static/css/main.eff973c1.chunk.css"
+    "revision": "1b2aa4c8345ac1fd7295",
+    "url": "/static/css/main.a39df8e3.chunk.css"
   },
   {
     "revision": "1cba6154e0117a741da3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2121ec4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f3fe6022d69205280a27",
-    "url": "/static/js/main.fde3a9b9.chunk.js"
+    "revision": "1b2aa4c8345ac1fd7295",
+    "url": "/static/js/main.e5c3c4b7.chunk.js"
   },
   {
     "revision": "8ba35ebeaaebd6ba955c",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1c83f9474e0cc1d84a13c6d1ddf3ca5",
     "url": "/static/media/OpenSans-SemiBold.e1c83f94.ttf"
+  },
+  {
+    "revision": "e49586a216ddb4f438de8201300f3d43",
+    "url": "/static/media/Vazir-Regular.e49586a2.woff2"
   },
   {
     "revision": "da2b051d5419cca13c677532144a9f59",
