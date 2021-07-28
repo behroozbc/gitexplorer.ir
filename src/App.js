@@ -211,7 +211,7 @@ class App extends Component {
                     {usage.length ? (
                       <div className="copy">
                         <span className={`copy__popover ${copied ? 'show' : ''}`}>
-                          command copied
+                          دستور کپی شد
                         </span>
                         <img
                           className="copy__image"
