@@ -1,19 +1,15 @@
 # GitExplorer
 Table of Contents
 
-[Intro](https://github.com/summitech/gitexplorer/blob/master/README.md#intro)
+[Intro](https://github.com/behroozbc/gitexplorer/blob/master/README.md#intro)
 
-[Tech Stack](https://github.com/summitech/gitexplorer/blob/master/README.md#tech-stack)
+[Tech Stack](https://github.com/behroozbc/gitexplorer/blob/master/README.md#tech-stack)
 
-[Installation](https://github.com/summitech/gitexplorer/blob/master/README.md#installation)
+[Installation](https://github.com/behroozbc/gitexplorer/blob/master/README.md#installation)
 
-[Makers](https://github.com/summitech/gitexplorer/blob/master/README.md#makers)
+[Makers](https://github.com/behroozbc/gitexplorer/blob/master/README.md#makers)
 
-[Contribute](https://github.com/summitech/gitexplorer/blob/master/README.md#contribute)
-
-[Donate](https://github.com/summitech/gitexplorer/blob/master/README.md#donate)
-
-[RoadMap](https://github.com/summitech/gitexplorer/blob/master/README.md#roadmap)
+[Contribute](https://github.com/behroozbc/gitexplorer/blob/master/README.md#contribute)
 
 ### Intro
 Last year, we came across [Sarah Drasner's array explorer](https://github.com/sdras/array-explorer). It is a really cool resource for anyone to easily figure out the best JS array method to use. We loved it and decided to build something similar for Git.
@@ -29,14 +25,14 @@ You can reach us on [the official git explorer twitter handle](https://twitter.c
 
 - React
 - Netlify
-- Our first hosting platform was [Surge](https://surge.sh). Super easy to set up and very reliable :+1:. 100% recommend!
+- Github Pages
 
 
 ### Installation
 ```
-yarn (Install all dependencies)
+npm i (Install all dependencies)
 
-yarn start
+npm start
 ```
 
 To try GitExplorer in a docker container, run this:
@@ -45,7 +41,7 @@ docker-compose up
 ```
 
 ### Makers
-Awesome devs and designer at [Summitech](https://summitech.ng)
+Awesome devs and designer at [Behrooz](https://behroozbc.ir)
 
 ### Contribute
 Thank you for contributing to GitExplorer!
@@ -169,13 +165,3 @@ export { tertiaryOptions_fa as optionsThird } from './tertiary-options';
 
 ``` 
 
-### Donate
-
- You can also contribute to the continued success of the project via donation. Please click this [link](https://rave.flutterwave.com/donate/bavfmdlomzs2).
-
- ### RoadMap
-
- - [x] Enforce HTTPs & offline capabilities
- - [x] Open source
- - [ ] PWA
- - [ ] Shareable commands
