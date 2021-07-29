@@ -14,11 +14,10 @@ Table of Contents
 ### Intro
 Last year, we came across [Sarah Drasner's array explorer](https://github.com/sdras/array-explorer). It is a really cool resource for anyone to easily figure out the best JS array method to use. We loved it and decided to build something similar for Git.
 
-Website: [Click to find the right git commands without digging through the web.](https://gitexplorer.com)
+Website: [Click to find the right git commands without digging through the web.](https://gitexplorer.ir)
 
 Explore and Enjoy! 
 
-You can reach us on [the official git explorer twitter handle](https://twitter.com/gitexplorer) or on [Summitech's twitter handle](https://twitter.com/summitechng).
 
 
 ### Tech Stack
@@ -41,7 +40,7 @@ docker-compose up
 ```
 
 ### Makers
-Awesome devs and designer at [Behrooz](https://behroozbc.ir)
+Awesome devs and designer at [Behrooz](https://behroozbc.ir) and [Ali](https://alixdehghani.github.io/)
 
 ### Contribute
 Thank you for contributing to GitExplorer!
