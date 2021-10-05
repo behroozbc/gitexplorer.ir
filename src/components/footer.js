@@ -14,28 +14,13 @@ const Footer = props => (
         )}
       </a>
     </div>
-    {/* <p className="footer__copyright dark-white">
-      Made with <span>❤</span> by{' '}
-      <a href="https://www.summitech.ng" target="_blank" rel="noopener noreferrer">
-        Summitech
+    {<p className="footer__copyright dark-white">
+      میزبانی شده توسط
+      <a href=" https://abzarweb.com" target="_blank" rel="noopener noreferrer">
+        ابزار وب
       </a>
-      <a
-        href="https://twitter.com/gitexplorer"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="footer__link"
-      >
-        Twitter
-      </a>
-      <a
-        href="https://rave.flutterwave.com/donate/bavfmdlomzs2"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="footer__link"
-      >
-        Donate
-      </a>
-    </p> */}
+
+    </p>}
   </footer>
 );
 
