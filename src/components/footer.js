@@ -16,7 +16,7 @@ const Footer = props => (
     </div>
     {<p className="footer__copyright dark-white">
       میزبانی شده توسط‌ ‌
-      <a href=" https://abzarweb.com" target="_blank" rel="noopener noreferrer">
+      <a href=" https://abzarweb.com/aff.php?aff=1" target="_blank" rel="noopener noreferrer">
         ابزار وب
       </a>
 
